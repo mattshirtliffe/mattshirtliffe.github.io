@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "10 resolutions for 2016"
+date:   2015-12-20 01:16:29
+categories: 2016 resolutions
+---
+
+
+1. Read more programming and business books
+2. Exercise more
+3. Continue with LCHF diet
+4. Contribute to opensource
+5. Blog and start a Podcast 
+6. Take on some contract work
+7. Teach others
+8. Finish some personal projects
+9. Learn some new programming languages and technology
+10. Socialise More
