@@ -1,5 +1,6 @@
 # Site settings
 title: Matthew Shirtliffe
+tag: Lifestyle Programmer
 # header-img: img/home-bg.jpg
 email: me@matthewshirtliffe.co.uk
 copyright_name: Matthew Shirtliffe
@@ -18,3 +19,7 @@ paginate: 5
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 gems: [jekyll-paginate, jekyll-feed, jekyll-gist]
+
+
+sass:
+  cache: false

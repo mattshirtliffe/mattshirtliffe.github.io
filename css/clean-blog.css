@@ -75,7 +75,7 @@ hr.small {
   }
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus {
-    color: rgba(255, 255, 255, 0.8);
+    color: #95a5a6;
   }
   .navbar-custom .nav li a {
     color: black;
@@ -83,7 +83,7 @@ hr.small {
   }
   .navbar-custom .nav li a:hover,
   .navbar-custom .nav li a:focus {
-    color: rgba(255, 255, 255, 0.8);
+    color: #95a5a6;
   }
 }
 @media only screen and (min-width: 1170px) {
@@ -218,7 +218,7 @@ hr.small {
 .post-preview > a:hover,
 .post-preview > a:focus {
   text-decoration: none;
-  color: #0085a1;
+  color: #95a5a6;
 }
 .post-preview > a > .post-title {
   font-size: 30px;
