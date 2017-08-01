@@ -1,0 +1,74 @@
+---
+layout: post
+title:  "Vagrant, it works on my box!"
+date:   2017-08-01 00:00:00
+categories: automation
+---
+
+# WTF is it?
+Vagrant is an interesting tool I have been using for years. It allows you to
+quickly spin up a VMs for performing experiments. Fundamentally it's used for the management of your development environments in VMs.
+
+
+
+# Why
+
+- Ensures all developers on your team are running a development environment which are the same as a remote production box.
+ Stop developers saying "it works on my machine".
+- Provides a VM playground so you can spin up a box play around with it the destroy it after.
+- Use it to practice deployment automation.
+- Ship a Vagrantfile with your source and deployment scripts so you can build a production like environment
+ with your code.
+
+# How
+## Installation
+### Install Virtualbox for your platform
+[virtualbox](https://www.virtualbox.org/wiki/Downloads)
+
+### Install vagrant for your platform
+[vagrant](https://www.vagrantup.com/downloads.html)
+
+
+
+### Init
+In my code directory I to run the following command
+```
+vagrant init
+```
+This creates a boilerplate Vagrantfile.
+
+# Set your VM distro
+change config.vm.box = "base" in your Vagrantfile to  config.vm.box = "<name of box>"
+
+You can browse and download boxes [here](https://app.vagrantup.com/boxes/search).
+
+I'm using ubuntu/xenial64 so mine looks like this
+config.vm.box = "ubuntu/xenial64"
+
+
+## Start the VM
+```
+vagrant up
+```
+
+## Stop the VM
+```
+vagrant halt
+```
+
+## Access the VM
+```
+vagrant ssh
+```
+
+## Reload VM after making changes to Vagrantfile
+```
+vagrant reload
+```
+
+## Delete VM
+```
+vagrant destroy
+```
+
+In my next post about vagrant I'll create a simple tutorial on how to provisioning your VM in vagrant.
