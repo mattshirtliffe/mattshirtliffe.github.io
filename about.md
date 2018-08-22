@@ -8,7 +8,7 @@ I'm a **software developer**.
 
 I build software for interesting companies with meaningful causes.
 
-Is your organisation using the technology to make a real
+Is your organisation using technology to make a real
 difference?
 
 If not, would you like to?
