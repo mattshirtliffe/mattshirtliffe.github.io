@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "About"
-description: "Matthew in the flesh"
+description: "Matthew Shirtliffe is a full-stack polyglot developer. Specialises developing applications for startups and entrepreneurs."
 ---
 
 I'm a **software developer**.
