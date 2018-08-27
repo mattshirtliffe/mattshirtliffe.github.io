@@ -20,4 +20,4 @@ Get in touch.
 Projects that make a positive difference to the lives of users. Challenging problems for which I can create simple but elegant solutions using the best tools for the job.
 
 # What kind of people do I want to work with?
-Brilliant, high energy people who don't believe you should leave things the way they are.
+Brilliant, high energy people who don't believe you should leave things the way they are. The world is pretty shit so let's try and make it better.
