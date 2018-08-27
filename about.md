@@ -6,7 +6,7 @@ description: "Matthew Shirtliffe is a full-stack polyglot developer. Specialises
 
 I'm a **software developer**.
 
-I build software for interesting companies with meaningful causes.
+I build software for interesting companies with a meaningful cause.
 
 Is your organisation using technology to make a real
 difference?
