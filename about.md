@@ -21,3 +21,8 @@ Projects that make a positive difference to the lives of users. Challenging prob
 
 # What kind of people do I want to work with?
 Brilliant, high energy people who don't believe you should leave things the way they are. The world is pretty shit so let's try and make it better.
+
+# What is my current availability?
+I have a small gig which will be shortly ending and I'm always interested in new and exciting opportunities.
+
+Get in touch.
