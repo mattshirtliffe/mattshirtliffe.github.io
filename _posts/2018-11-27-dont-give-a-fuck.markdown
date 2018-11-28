@@ -9,7 +9,7 @@ categories: development
 Over the years I have work on so many projects and with so many technologies.
 I've work on some dog shit legacy code bases written in VB and I've worked with some of the latest and greatest technologies.
 
-The one thing I have found with these systems is that the users don't give a fuck what it written in, they don't know and dont't care.
+The one thing I have found with these systems is that the users don't give a fuck what it written in, they don't know and don't care.
 
 These systems provided value by giving the a solution to their problems and the customers paid.
 
