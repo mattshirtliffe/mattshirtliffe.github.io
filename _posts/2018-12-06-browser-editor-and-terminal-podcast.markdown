@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Browser, Editor and Terminal Podcast"
+title:  "The Browser, Editor and Terminal Podcast"
 date:   2018-12-06 00:00:00
 categories: podcast
 ---
@@ -17,4 +17,4 @@ During my lunchtime I like to walk, clear my head and get away from my machine a
 Creating a podcast seems like a great way to tell the world my thoughts and the interesting clients I'm working with and the projects I'm working on.
 
 Here is my first episode:
-*[Episode 1 Introduction](https://anchor.fm/matthew-shirtliffe/episodes/Episode-1-Introduction-e2n8rb)*
+[Episode 1 Introduction](https://anchor.fm/matthew-shirtliffe/episodes/Episode-1-Introduction-e2n8rb)
