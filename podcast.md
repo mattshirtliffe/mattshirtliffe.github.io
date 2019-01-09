@@ -1,10 +1,8 @@
 ---
 layout: page
 title: "Browser, Editor and Terminal"
-description: "Podcast"
+description: "The podcast of the software developer Matthew Shirtliffe"
 ---
-
-The podcast of the software developer Matthew Shirtliffe.
 
 Opinions and thoughts about technology, software development and business. Interviews with professionals and business owners to help me improve my knowledge of how to build better products and services.
 
