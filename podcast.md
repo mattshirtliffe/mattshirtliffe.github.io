@@ -1,8 +1,9 @@
 ---
 layout: page
 title: "podcast"
-description: "Browser, Editor and Terminal The podcast of the software developer Matthew Shirtliffe"
+description: "Browser, Editor and Terminal: The podcast of the software developer Matthew Shirtliffe"
 ---
+
 
 The podcast of the software developer Matthew Shirtliffe.
 
