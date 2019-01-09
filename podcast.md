@@ -1,7 +1,13 @@
 ---
 layout: page
-title: "Podcast"
-description: "Browser, Editor and Terminal"
+title: "Browser, Editor and Terminal"
+description: "Podcast"
 ---
+
+The podcast of the software developer Matthew Shirtliffe.
+
+Opinions and thoughts about technology, software development and business. Interviews with professionals and business owners to help me improve my knowledge of how to build better products and services.
+
+I hope you enjoy and learn something from these podcasts and thanks for taking the time to listen.
 
 <iframe src="https://anchor.fm/matthew-shirtliffe/embed" height="102px" width="100%" frameborder="0" scrolling="yes"></iframe>
