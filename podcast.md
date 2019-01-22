@@ -11,4 +11,4 @@ Opinions and thoughts about technology, software development and business. Inter
 
 I hope you enjoy and learn something from these podcasts and thanks for taking the time to listen.
 
-<iframe src="https://anchor.fm/matthew-shirtliffe/embed" height="102px" width="100%" frameborder="0" scrolling="yes"></iframe>
+<iframe src="https://anchor.fm/matthew-shirtliffe/embed" width="100%" frameborder="0" scrolling="no"></iframe>

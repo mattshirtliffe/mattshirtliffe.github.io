@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "About"
+title: "about"
 description: "Matthew Shirtliffe is a full-stack polyglot developer. Specialises developing applications for startups and entrepreneurs."
 ---
 
