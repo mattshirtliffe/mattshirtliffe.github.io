@@ -5,7 +5,7 @@ date:   2019-09-10
 categories: python
 ---
 
-In the flask microframework you can add you own custom commands.
+In the flask microframework you can add your own custom commands.
 
 # create a new user example
 ```python
