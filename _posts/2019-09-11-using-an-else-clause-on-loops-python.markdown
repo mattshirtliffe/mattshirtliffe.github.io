@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "using an else clause on loops in Python"
+title:  "Using an else clause on loops in Python"
 date:   2019-09-11
 categories: python
 ---
