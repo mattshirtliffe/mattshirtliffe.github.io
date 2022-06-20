@@ -1,4 +1,68 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Matthew Shirtliffe RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://www.matthewshirtliffe.co.uk</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 20 Jun 2022 07:37:10 GMT</lastBuildDate><item><title><![CDATA[Replace spaces with dashes and make all letters lower-case in bash]]></title><link>https://www.matthewshirtliffe.co.uk/replace-spaces-with-dashes-and-make-all-letters-lower-case/</link><guid isPermaLink="false">https://www.matthewshirtliffe.co.uk/replace-spaces-with-dashes-and-make-all-letters-lower-case/</guid><pubDate>Sun, 19 Jun 2022 18:28:00 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token assign-left variable&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Screenshot 2022-06-19 at 19-01-40 Garmin Connect.png&quot;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$a&lt;/span&gt;&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;tr&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;[:upper:]&apos;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;[:lower:]&apos;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;tr&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos; &apos;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;-&apos;&lt;/span&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Matthew Shirtliffe RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://www.matthewshirtliffe.co.uk</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 20 Jun 2022 14:12:39 GMT</lastBuildDate><item><title><![CDATA[Monday lunch time run]]></title><description><![CDATA[Today I had a pretty productive morning. I’ve been playing with Gatsby and learning how to paginate blog posts. I felt like I needed to…]]></description><link>https://www.matthewshirtliffe.co.uk/monday-lunchtime-run/</link><guid isPermaLink="false">https://www.matthewshirtliffe.co.uk/monday-lunchtime-run/</guid><pubDate>Mon, 20 Jun 2022 13:57:00 GMT</pubDate><content:encoded>&lt;p&gt;Today I had a pretty productive morning. I’ve been playing with Gatsby and learning how to paginate blog posts. I felt like I needed to pound the pavement, I laced up and managed a distance of 3.26 beating my 5k goal. I’m not too focused on my timing at the moment I’d just like to get into the habit of running daily.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/b5d91a9025eda000834c29897fc2059e/d43b4/screenshot-2022-06-20-at-14-52-22-garmin-connect.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 15.822784810126581%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAeUlEQVQI122O2w7DIAxD+/8/ugtj4hKKoIAXUzH1oZYSJ5F1YAshwBiDx8vg+f5qfeCcQykFpVacGmcfA0trvnrvHVuMEYTmnBHVvcI4H0eF7FlDg+kZpuittVsotfE3IjIXkYRdIRQfCd7/AdbaeU8pwet9ga5Q1g8/p+sFKy1rZAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Screenshot 2022-06-20 at 14-52-22 Garmin Connect.png&quot;
+        title=&quot;Screenshot 2022-06-20 at 14-52-22 Garmin Connect.png&quot;
+        src=&quot;/static/b5d91a9025eda000834c29897fc2059e/f058b/screenshot-2022-06-20-at-14-52-22-garmin-connect.png&quot;
+        srcset=&quot;/static/b5d91a9025eda000834c29897fc2059e/c26ae/screenshot-2022-06-20-at-14-52-22-garmin-connect.png 158w,
+/static/b5d91a9025eda000834c29897fc2059e/6bdcf/screenshot-2022-06-20-at-14-52-22-garmin-connect.png 315w,
+/static/b5d91a9025eda000834c29897fc2059e/f058b/screenshot-2022-06-20-at-14-52-22-garmin-connect.png 630w,
+/static/b5d91a9025eda000834c29897fc2059e/40601/screenshot-2022-06-20-at-14-52-22-garmin-connect.png 945w,
+/static/b5d91a9025eda000834c29897fc2059e/d43b4/screenshot-2022-06-20-at-14-52-22-garmin-connect.png 1202w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;I also completed a 16 hour fast&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/303d4ef1dc18e7c8f12db60d4b5c7be2/0ede0/whatsapp-image-2022-06-20-at-2.53.36-pm.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 216.45569620253164%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAArABQDASIAAhEBAxEB/8QAGgABAAIDAQAAAAAAAAAAAAAAAAECAwQFBv/EABYBAQEBAAAAAAAAAAAAAAAAAAACAf/aAAwDAQACEAMQAAABzV0Wz0HNHqZiJqwMNdkmqzd//8QAHhAAAQMEAwAAAAAAAAAAAAAAAQACAxARExQSICH/2gAIAQEAAQUC3HLdN94hYpVjlWKXu5/vMIG4r//EABYRAAMAAAAAAAAAAAAAAAAAABAgIf/aAAgBAwEBPwFKP//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BX//EACAQAAECBgMBAAAAAAAAAAAAAAACMwERIDKRoRASEzH/2gAIAQEABj8Cb2N7JeexuOBtWCxWKfnEusS1VP8A/8QAIhABAAIBAwMFAAAAAAAAAAAAAQARMRAhUSBBgWFx0fDx/9oACAEBAAE/IbiyYwMsfVRSqtdvxATaL0Dzizn8pW+NCIcQoxoASWuCAfBN6pPfo//aAAwDAQACAAMAAAAQzDWO7N//xAAYEQADAQEAAAAAAAAAAAAAAAAAAREQUf/aAAgBAwEBPxCsr2dCP//EABcRAAMBAAAAAAAAAAAAAAAAAAEQEQD/2gAIAQIBAT8Qg0Di/8QAHxAAAwACAgIDAAAAAAAAAAAAAAERITFBYYHREHGR/9oACAEBAAE/EEqRj00nog07iqEUWaPDBEeW5nj7GguGy+St3pd0z2JFqeaV3OiMsGM0QJcDNC79C1rx4kY+Ps9/H//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Screenshot zero app 16 hour fast&quot;
+        title=&quot;Screenshot zero app 16 hour fast&quot;
+        src=&quot;/static/303d4ef1dc18e7c8f12db60d4b5c7be2/828fb/whatsapp-image-2022-06-20-at-2.53.36-pm.jpg&quot;
+        srcset=&quot;/static/303d4ef1dc18e7c8f12db60d4b5c7be2/ff44c/whatsapp-image-2022-06-20-at-2.53.36-pm.jpg 158w,
+/static/303d4ef1dc18e7c8f12db60d4b5c7be2/a6688/whatsapp-image-2022-06-20-at-2.53.36-pm.jpg 315w,
+/static/303d4ef1dc18e7c8f12db60d4b5c7be2/828fb/whatsapp-image-2022-06-20-at-2.53.36-pm.jpg 630w,
+/static/303d4ef1dc18e7c8f12db60d4b5c7be2/0ede0/whatsapp-image-2022-06-20-at-2.53.36-pm.jpg 945w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Replace spaces with dashes and make all letters lower-case in bash]]></title><link>https://www.matthewshirtliffe.co.uk/replace-spaces-with-dashes-and-make-all-letters-lower-case/</link><guid isPermaLink="false">https://www.matthewshirtliffe.co.uk/replace-spaces-with-dashes-and-make-all-letters-lower-case/</guid><pubDate>Sun, 19 Jun 2022 18:28:00 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token assign-left variable&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Screenshot 2022-06-19 at 19-01-40 Garmin Connect.png&quot;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$a&lt;/span&gt;&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;tr&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;[:upper:]&apos;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;[:lower:]&apos;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;tr&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos; &apos;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;-&apos;&lt;/span&gt;
 
 screenshot-2022-06-19-at-19-01-40-garmin-connect.png&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[My first run in a while]]></title><description><![CDATA[I’ve been under the weather after a course of antibiotics, this has left me with a low mood and just no motivation to run. Today I managed…]]></description><link>https://www.matthewshirtliffe.co.uk/first-run-in-a-while/</link><guid isPermaLink="false">https://www.matthewshirtliffe.co.uk/first-run-in-a-while/</guid><pubDate>Sun, 19 Jun 2022 17:52:00 GMT</pubDate><content:encoded>&lt;p&gt;I’ve been under the weather after a course of antibiotics, this has left me with a low mood and just no motivation to run. Today I managed to muster the energy to to lace up my trainers and hit the road; I managed a distance of 2.71 miles.&lt;/p&gt;
 &lt;p&gt;&lt;span
