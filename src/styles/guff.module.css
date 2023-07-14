@@ -1,0 +1,40 @@
+
+.guffSection {
+    padding: 64px 0;
+}
+
+.guffContent {
+    display: flex;
+    padding: 0 15%;
+}
+
+.guffSectionHeading {
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    flex: 1;
+}
+
+.guffHeading {
+    font-size: 1.5rem;
+}
+
+.guffText {
+    font-size: 1.25rem;
+}
+
+.guffPosts {
+    margin-top: 24px;
+    flex: 1;
+}
+
+.guffPosts p {
+    margin: 16px 0;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .guffContent {
+      flex-direction: column;
+    }
+  }
