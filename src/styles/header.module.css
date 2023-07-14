@@ -1,0 +1,48 @@
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    padding: 24px 32px;
+    box-sizing: border-box;
+  }
+
+  .navbar a {
+    text-decoration: none;
+  }
+  
+  .navbar .links a {
+    color: black;
+    margin-right: 16px;
+    font-size: 1.3rem;
+  }
+
+  .navbar .logo {
+    background-color: white;
+    color: black;
+  }
+
+    
+  .navbar .contact {
+    background-color: white;
+    color: black;
+    padding: 16px 24px;
+  }
+  
+  .navbar .contact:hover {
+    opacity: 0.8;
+  }
+
+
+@media only screen and (max-width: 500px) {
+  .links {
+    display: none;
+  }
+
+
+  .navbar {
+      justify-content: center;
+  }
+}

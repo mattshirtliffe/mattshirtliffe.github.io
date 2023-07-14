@@ -1,0 +1,80 @@
+.hero {
+  min-height: 100vh;
+  background-color: white;
+  color: black;
+}
+
+.heroContent {
+  padding: 0 15%;
+}
+
+.tagline {
+  font-size: 4.5rem;
+  letter-spacing: 2px;
+  padding: 32px 0;
+}
+
+.mission {
+  display: flex;
+}
+
+.missionText {
+  font-size: 2rem;
+  flex: 1;
+}
+
+.missionHeading {
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 0;
+  flex: 1;
+}
+
+.skills {
+  display: flex;
+}
+
+.skillsHeading {
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 0;
+  flex: 1
+}
+
+.skillsLists {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.25rem;
+  box-sizing: border-box;
+}
+
+.skillsLists ul {
+  list-style: none;
+  padding: 0;
+  flex: 1;
+}
+
+.skillsLists ul li {
+  margin: 12px 0;
+}
+
+
+@media only screen and (max-width: 500px) {
+  .mission {
+    flex-direction: column;
+  }
+
+  .skills {
+    flex-direction: column;
+  }
+
+
+  .tagline {
+    font-size: 2.5rem;
+  }
+
+  .missionText {
+    font-size: 1.5rem;
+  }
+}

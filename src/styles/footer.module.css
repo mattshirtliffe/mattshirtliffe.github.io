@@ -1,0 +1,22 @@
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 64px;
+}
+
+
+.footer a {
+    color: white;
+}
+
+  
+.footerContent {
+    text-align: center;
+}
+
+.footer svg {
+    width: 2rem;
+    height: 2rem;
+    margin: 0 8px;
+}
