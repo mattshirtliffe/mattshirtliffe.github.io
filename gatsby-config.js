@@ -9,7 +9,7 @@ module.exports = {
       summary: `Freelance Software Engineer & Co-founder of Studio 200`,
     },
     title: `Matthew Shirtliffe Freelance Full-Stack Software Engineer & Co-founder of Studio 200`,
-    description: `Matthew Shirtliffe Freelance Full-Stack Software Engineer & Co-founder of Studio 200`,
+    description: `Matthew Shirtliffe is a freelance full-stack software engineer and co-founder of Studio 200. With expertise in Python, JavaScript, React and Flutter, he can help you develop your business ideas and bring them to life. Contact him today for a consultation.`,
     siteUrl: `https://www.matthewshirtliffe.co.uk/`,
     social: {
       twitter: `MShirtliffe`,
