@@ -54,5 +54,12 @@ module.exports = {
         },
       },
     },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`Oswald\:300,400,700`, `Source Sans 3\:300,400,700`],
+        display: 'swap',
+      },
+    },
   ],
 }

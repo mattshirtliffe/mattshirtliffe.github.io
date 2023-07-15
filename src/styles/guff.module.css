@@ -13,10 +13,12 @@
     font-size: 2.5rem;
     margin-bottom: 0;
     flex: 1;
+    font-family: 'Oswald', sans-serif;
 }
 
 .guffHeading {
     font-size: 1.5rem;
+    font-family: 'Oswald', sans-serif;
 }
 
 .guffText {
