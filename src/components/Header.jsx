@@ -6,7 +6,7 @@ const Header = () => {
   const { contactEmail } = useSiteMetadata()
   return (
     <header className={headerStyles.navbar}>
-      <a className={headerStyles.logo} href="#contact">
+      <a className={headerStyles.logo} href="/">
         <h1>Matthew Shirtliffe</h1>
       </a>
       <nav className={headerStyles.links}>
