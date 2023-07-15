@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import * as headerStyles from '../styles/header.module.css'
 import { useSiteMetadata } from '../hooks/use-site-metadata'
+import { Twitter, Facebook, Linkedin, GitHub } from 'react-feather'
 
 const Header = () => {
   const [showHamburger, setShowHamburger] = useState(false)
@@ -23,6 +24,38 @@ const Header = () => {
       >
         <a className={headerStyles.contact} href={`mailto:${contactEmail}`}>
           Contact
+        </a>
+        <a
+          href="https://twitter.com/MShirtliffe"
+          aria-label="Twitter"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <Twitter />
+        </a>
+        <a
+          href="https://www.facebook.com/mattshirtliffe"
+          aria-label="Facebook"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <Facebook />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/matthew-shirtliffe-885746246/"
+          aria-label="Linkedin"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <Linkedin />
+        </a>
+        <a
+          href="https://github.com/mattshirtliffe"
+          aria-label="GitHub"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <GitHub />
         </a>
       </nav>
       <button

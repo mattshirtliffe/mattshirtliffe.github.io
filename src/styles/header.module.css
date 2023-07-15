@@ -55,6 +55,14 @@
   transition: transform 0.7s;
 }
 
+.mobileNav svg {
+  width: 2rem;
+  height: 2rem;
+  margin: 0 8px;
+  color: black;
+  margin: 8px 0;
+}
+
 .openMobileNav {
   transform: translateX(-160px);
 }

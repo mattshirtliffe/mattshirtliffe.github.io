@@ -1,3 +1,7 @@
+:root {
+    --footer-bg-color: #28282B;
+}
+
 body {
     padding: 0;
     margin: 0;

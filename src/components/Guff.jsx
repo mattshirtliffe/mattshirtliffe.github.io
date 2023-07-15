@@ -58,6 +58,14 @@ const Guff = () => {
             changes and deliver results in a timely manner. Your project will be
             executed with agility, precision, and flexibility.
           </p>
+          <p className={guffStyles.guffHeading}>Cutting-Edge Technologies</p>
+          <p className={guffStyles.guffText}>
+            I stay updated with the latest trends in software development to
+            deliver innovative and future-proof solutions. Whether it's
+            leveraging the power of cloud computing, integrating AI, or
+            developing mobile applications, I have the skills and knowledge to
+            turn your ideas into reality.
+          </p>
         </div>
       </div>
     </section>
