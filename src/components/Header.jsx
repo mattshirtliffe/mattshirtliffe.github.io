@@ -26,6 +26,7 @@ const Header = () => {
         </a>
       </nav>
       <button
+        aria-label="MobileMenu"
         className={headerStyles.hamburger}
         onClick={() => setShowHamburger(!showHamburger)}
       >
