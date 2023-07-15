@@ -25,13 +25,13 @@ const Guff = () => {
             engagement.
           </p>
           <p className={guffStyles.guffHeading}>
-            Database Design and Optimization
+            Database Design and Optimisation
           </p>
           <p className={guffStyles.guffText}>
             Data is the lifeblood of any application. I have extensive
-            experience in designing and optimizing databases using SQL and NoSQL
+            experience in designing and optimising databases using SQL and NoSQL
             technologies. Whether you need a scalable database architecture or
-            efficient query optimization, I ensure your data is securely stored
+            efficient query optimisation, I ensure your data is securely stored
             and easily accessible.
           </p>
           <p className={guffStyles.guffHeading}>
@@ -39,7 +39,7 @@ const Guff = () => {
           </p>
           <p className={guffStyles.guffText}>
             Seamless integration with third-party services is crucial for modern
-            applications. I specialize in building robust RESTful APIs and
+            applications. I specialise in building robust RESTful APIs and
             integrating them with various services, allowing your application to
             communicate with external systems effortlessly.
           </p>
