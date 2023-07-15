@@ -7,42 +7,122 @@
     color: black;
     padding: 24px 32px;
     box-sizing: border-box;
-  }
+}
 
-  .navbar a {
-    text-decoration: none;
-  }
+.navbar a {
+  text-decoration: none;
+}
+
+.navbar .links a {
+  color: black;
+  margin-right: 16px;
+  font-size: 1.3rem;
+}
+
+.navbar .logo {
+  background-color: white;
+  color: black;
+}
+
   
-  .navbar .links a {
-    color: black;
-    margin-right: 16px;
-    font-size: 1.3rem;
-  }
+.navbar .contact {
+  background-color: white;
+  color: black;
+  padding: 16px 24px;
+}
 
-  .navbar .logo {
-    background-color: white;
-    color: black;
-  }
+.navbar .contact:hover {
+  opacity: 0.8;
+}
 
-    
-  .navbar .contact {
-    background-color: white;
-    color: black;
-    padding: 16px 24px;
-  }
-  
-  .navbar .contact:hover {
-    opacity: 0.8;
-  }
+.hamburger {
+  display: none;
+}
 
+.mobileNav {
+  width: 90px;
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  right: -160px;
+  padding: 16px;
+  transition: transform 0.7s;
+}
+
+.openMobileNav {
+  transform: translateX(-160px);
+}
+
+.bar {
+  background-color: black;
+  height: 4px;
+  width: 36px;
+  margin: 3px;
+  border-radius: 10px;
+}
+
+@keyframes flipBar1 {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(45deg) translate(4px, 10px);
+  }
+}
+
+@keyframes flipBar3 {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(-45deg) translate(4px, -10px);
+  }
+}
+
+@keyframes fadeBar2 {
+  from {
+    transform: scaleX(1);
+    opacity: 1;
+  }
+  to {
+    transform: scaleX(0);
+    opacity: 0;
+  }
+}
+
+
+.animateBar1 {
+  animation: flipBar1 1s;
+  animation-fill-mode: forwards;
+}
+.animateBar2 {
+  animation: fadeBar2 1s;
+  animation-fill-mode: forwards;
+}
+.animateBar3 {
+  animation: flipBar3 1s;
+  animation-fill-mode: forwards;
+}
 
 @media only screen and (max-width: 500px) {
   .links {
     display: none;
   }
 
-
-  .navbar {
-      justify-content: center;
+  .hamburger {
+    background: white;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
   }
+
 }
