@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import * as headerStyles from '../styles/header.module.css'
 import { useSiteMetadata } from '../hooks/use-site-metadata'
-import { Twitter, Facebook, Linkedin, GitHub } from 'react-feather'
+import { Twitter, Facebook, Linkedin, GitHub, Mail } from 'react-feather'
 
 const Header = () => {
   const [showHamburger, setShowHamburger] = useState(false)
@@ -22,8 +22,8 @@ const Header = () => {
           showHamburger ? headerStyles.openMobileNav : ''
         }`}
       >
-        <a className={headerStyles.contact} href={`mailto:${contactEmail}`}>
-          Contact
+        <a href={`mailto:${contactEmail}`} aria-label="Contact via email">
+          <Mail />
         </a>
         <a
           href="https://twitter.com/MShirtliffe"

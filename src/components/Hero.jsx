@@ -34,18 +34,17 @@ const Hero = () => {
               <li>Express</li>
               <li>React</li>
               <li>Node</li>
+              <li>Flask</li>
               <li>Django</li>
               <li>MySQL</li>
               <li>Redis</li>
-              <li>Dart & Flutter</li>
-              <li>Linux</li>
+              <li>Flutter</li>
             </ul>
             <ul>
               <li>Gatsby</li>
               <li>Next</li>
               <li>TDD</li>
               <li>AWS</li>
-              <li>DO</li>
               <li>Azure</li>
               <li>RESTful APIs</li>
               <li>IoT</li>
