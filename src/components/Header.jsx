@@ -65,17 +65,23 @@ const Header = () => {
       >
         <div
           className={`${headerStyles.bar} ${
-            showHamburger ? headerStyles.animateBar1 : ''
+            showHamburger
+              ? headerStyles.animateBar1
+              : headerStyles.animateBackBar1
           }`}
         ></div>
         <div
           className={`${headerStyles.bar} ${
-            showHamburger ? headerStyles.animateBar2 : ''
+            showHamburger
+              ? headerStyles.animateBar2
+              : headerStyles.animateBackBar2
           }`}
         ></div>
         <div
           className={`${headerStyles.bar} ${
-            showHamburger ? headerStyles.animateBar3 : ''
+            showHamburger
+              ? headerStyles.animateBar3
+              : headerStyles.animateBackBar3
           }`}
         ></div>
       </button>

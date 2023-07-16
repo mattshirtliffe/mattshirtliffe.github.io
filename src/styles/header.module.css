@@ -104,6 +104,37 @@
   }
 }
 
+/* back */
+
+@keyframes flipBackBar1 {
+  from {
+    transform: rotate(45deg) translate(4px, 10px);
+  }
+  to {
+    transform: rotate(0);
+  }
+}
+
+@keyframes flipBackBar3 {
+  from {
+    transform: rotate(-45deg) translate(4px, -10px);
+  }
+  to {
+    transform: rotate(0);
+  }
+}
+
+@keyframes fadeBackBar2 {
+  from {
+    transform: scaleX(0);
+    opacity: 0;
+  }
+  to {
+    transform: scaleX(1);
+    opacity: 1;
+  }
+}
+
 
 .animateBar1 {
   animation: flipBar1 1s;
@@ -115,6 +146,19 @@
 }
 .animateBar3 {
   animation: flipBar3 1s;
+  animation-fill-mode: forwards;
+}
+
+.animateBackBar1 {
+  animation: flipBackBar1 1s;
+  animation-fill-mode: forwards;
+}
+.animateBackBar2 {
+  animation: fadeBackBar2 1s;
+  animation-fill-mode: forwards;
+}
+.animateBackBar3 {
+  animation: flipBackBar3 1s;
   animation-fill-mode: forwards;
 }
 
