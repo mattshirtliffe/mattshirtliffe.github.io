@@ -1,9 +1,103 @@
-import React from 'react'
-import { useForm, ValidationError } from '@formspree/react'
+import React, { useState } from 'react'
+import { object, string } from 'yup'
 import * as contactStyles from '../styles/contact.module.css'
 
 const Contact = () => {
-  const [state, handleSubmit] = useForm('mnqknnlg')
+  const contactSchema = object({
+    name: string().required('name is required'),
+    email: string()
+      .email('a valid email is required')
+      .required('email is required'),
+    phone: string().required('phone is required'),
+    message: string().optional(),
+  })
+
+  const initContactErrorState = {
+    name: null,
+    email: null,
+    phone: null,
+  }
+
+  const initContactState = {
+    name: '',
+    email: '',
+    phone: '',
+    message: '',
+  }
+
+  const showMessage = (key) => {
+    if (key === 1) {
+      return (
+        <p className={contactStyles.formSuccessMessage}>
+          Thanks for being awesome! I have received your message and would like
+          to thank you for contacting me. Talk to you soon.
+        </p>
+      )
+    } else if (key === 2) {
+      return (
+        <p className={contactStyles.formErrorMessage}>
+          Oops! There was a problem submitting the form.
+        </p>
+      )
+    } else {
+      return null
+    }
+  }
+
+  const [contact, setContact] = useState(initContactState)
+
+  const [submitState, setSubmitState] = useState(0)
+
+  const [contactError, setContactError] = useState(initContactErrorState)
+
+  const handleChange = (e) => {
+    setContact({ ...contact, [e.target.name]: e.target.value })
+  }
+
+  const handleSubmit = async (e) => {
+    e.preventDefault()
+
+    try {
+      setContactError(initContactErrorState)
+      const validContact = await contactSchema.validate(contact, {
+        abortEarly: false,
+      })
+
+      await postToFormspree(validContact)
+    } catch (err) {
+      const newContactErrorState = {}
+      for (const er of err.inner) {
+        newContactErrorState[er.path] = er.message
+      }
+      setContactError({ ...contactError, ...newContactErrorState })
+    }
+  }
+
+  const postToFormspree = async (contact) => {
+    try {
+      const data = new FormData()
+      for (let key of Object.keys(contact)) {
+        data.append(key, contact[key])
+      }
+
+      const response = await fetch('https://formspree.io/f/mnqknnlg', {
+        method: 'POST',
+        body: data,
+        headers: {
+          Accept: 'application/json',
+        },
+      })
+
+      const responseData = await response.json()
+      if (responseData.ok) {
+        setSubmitState(1)
+        setContact(initContactState)
+        setContactError(initContactErrorState)
+      } else {
+        setSubmitState(2)
+      }
+    } catch (error) {}
+  }
 
   return (
     <section className={contactStyles.section}>
@@ -20,12 +114,12 @@ const Contact = () => {
                 type="text"
                 id="name"
                 name="name"
+                onChange={handleChange}
+                value={contact.name}
               />
-              <ValidationError
-                prefix="Name"
-                field="name"
-                errors={state.errors}
-              />
+              {contactError.name ? (
+                <p className={contactStyles.errorText}>{contactError.name}</p>
+              ) : null}
             </div>
             <div className={contactStyles.formInputContainer}>
               <label className={contactStyles.label} htmlFor="email">
@@ -33,15 +127,15 @@ const Contact = () => {
               </label>
               <input
                 className={contactStyles.input}
-                type="email"
+                type="text"
                 id="email"
                 name="email"
+                onChange={handleChange}
+                value={contact.email}
               />
-              <ValidationError
-                prefix="Email"
-                field="email"
-                errors={state.errors}
-              />
+              {contactError.email ? (
+                <p className={contactStyles.errorText}>{contactError.email}</p>
+              ) : null}
             </div>
             <div className={contactStyles.formInputContainer}>
               <label className={contactStyles.label} htmlFor="phone">
@@ -52,12 +146,12 @@ const Contact = () => {
                 type="tel"
                 id="phone"
                 name="phone"
+                onChange={handleChange}
+                value={contact.phone}
               />
-              <ValidationError
-                prefix="phone"
-                field="phone"
-                errors={state.errors}
-              />
+              {contactError.phone ? (
+                <p className={contactStyles.errorText}>{contactError.phone}</p>
+              ) : null}
             </div>
             <div className={contactStyles.formInputContainer}>
               <div className={contactStyles.label}>Message</div>
@@ -66,28 +160,17 @@ const Contact = () => {
                 className={`${contactStyles.textarea} ${contactStyles.input}`}
                 name="message"
                 id="message"
+                onChange={handleChange}
+                value={contact.message}
               ></textarea>
-              <ValidationError
-                prefix="message"
-                field="message"
-                errors={state.errors}
-              />
             </div>
             <div className={contactStyles.formButtonContainer}>
-              <button
-                type="submit"
-                disabled={state.submitting}
-                className={contactStyles.button}
-              >
+              <button type="submit" className={contactStyles.button}>
                 Submit
               </button>
             </div>
-            {state.succeeded ? (
-              <p className={contactStyles.formSuccessMessage}>
-                Thanks for being awesome! I have received your message and would
-                like to thank you for contacting me. Talk to you soon.
-              </p>
-            ) : null}
+
+            {showMessage(submitState)}
           </form>
         </div>
       </div>

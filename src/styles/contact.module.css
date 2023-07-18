@@ -73,6 +73,10 @@
     color: red;
 }
 
+.errorText::first-letter {
+    text-transform: capitalize;
+}
+
 .button {
     padding: 16px;
     border: solid 2px black;
@@ -98,7 +102,10 @@
     font-size: 1.3rem;
 }
 
-
+.formErrorMessage {
+    color: red;
+    font-size: 1.3rem;
+}
 
 @media only screen and (max-width: 500px) {
     .content {
