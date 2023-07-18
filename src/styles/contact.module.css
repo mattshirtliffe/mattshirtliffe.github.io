@@ -51,6 +51,7 @@
 .textarea {
     resize: none;
     height: 100%;
+    font-family: 'Source Sans 3', sans-serif;
 }
 
 .input:active,

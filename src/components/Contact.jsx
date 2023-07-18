@@ -69,7 +69,10 @@ const Contact = () => {
       for (const er of err.inner) {
         newContactErrorState[er.path] = er.message
       }
-      setContactError({ ...contactError, ...newContactErrorState })
+      setContactError({
+        ...initContactErrorState,
+        ...newContactErrorState,
+      })
     }
   }
 
@@ -154,7 +157,9 @@ const Contact = () => {
               ) : null}
             </div>
             <div className={contactStyles.formInputContainer}>
-              <div className={contactStyles.label}>Message</div>
+              <label className={contactStyles.label} htmlFor="message">
+                Message
+              </label>
               <textarea
                 rows={10}
                 className={`${contactStyles.textarea} ${contactStyles.input}`}
