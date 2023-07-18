@@ -48,6 +48,10 @@
     font-size: 1.2rem;
 }
 
+.inputError {
+    border-color: red;
+}
+
 .textarea {
     resize: none;
     height: 100%;
@@ -59,10 +63,7 @@
     border: solid 2px grey;
 }
 
-.inputError {
-    border-color: red;
-    color: red;
-}
+
 
 
 .error {

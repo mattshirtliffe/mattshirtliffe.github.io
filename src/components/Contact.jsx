@@ -113,7 +113,9 @@ const Contact = () => {
                 Name
               </label>
               <input
-                className={contactStyles.input}
+                className={`${contactStyles.input} ${
+                  contactError.name ? contactStyles.inputError : null
+                }`}
                 type="text"
                 id="name"
                 name="name"
@@ -129,7 +131,9 @@ const Contact = () => {
                 Email
               </label>
               <input
-                className={contactStyles.input}
+                className={`${contactStyles.input} ${
+                  contactError.email ? contactStyles.inputError : null
+                }`}
                 type="text"
                 id="email"
                 name="email"
@@ -145,7 +149,9 @@ const Contact = () => {
                 Phone
               </label>
               <input
-                className={`${contactStyles.input}`}
+                className={`${contactStyles.input} ${
+                  contactError.phone ? contactStyles.inputError : null
+                }`}
                 type="tel"
                 id="phone"
                 name="phone"
