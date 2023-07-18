@@ -16,6 +16,7 @@
     "deploy": "gatsby build && gh-pages -d public"
   },
   "dependencies": {
+    "@formspree/react": "^2.4.4",
     "@mdx-js/react": "^2.3.0",
     "gatsby": "^5.11.0",
     "gatsby-plugin-google-fonts": "^1.0.1",
@@ -29,7 +30,8 @@
     "gatsby-transformer-sharp": "^5.11.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-feather": "^2.0.10"
+    "react-feather": "^2.0.10",
+    "yup": "^1.2.0"
   },
   "devDependencies": {
     "gh-pages": "^5.0.0"

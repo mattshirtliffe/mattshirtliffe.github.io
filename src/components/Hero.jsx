@@ -26,9 +26,9 @@ const Hero = () => {
             </p>
           </div>
         </div>
-        <div class={heroStyles.skills}>
-          <p class={heroStyles.skillsHeading}>Skills</p>
-          <div class={heroStyles.skillsLists}>
+        <div className={heroStyles.skills}>
+          <p className={heroStyles.skillsHeading}>Skills</p>
+          <div className={heroStyles.skillsLists}>
             <ul>
               <li>MongoDB</li>
               <li>Express</li>
