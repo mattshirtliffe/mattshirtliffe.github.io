@@ -1,10 +1,9 @@
 
 .footer {
-    background-color: var(--footer-bg-color);
+    background-color: black;
     color: white;
     padding: 64px;
 }
-
 
 .footer a {
     color: white;
