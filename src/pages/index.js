@@ -5,6 +5,7 @@ import Hero from '../components/Hero'
 import Footer from '../components/Footer'
 import Guff from '../components/Guff'
 import Contact from '../components/Contact'
+import Companies from '../components/Companies'
 
 const IndexPage = () => {
   return (
@@ -12,6 +13,7 @@ const IndexPage = () => {
       <Header />
       <Hero />
       <Guff />
+      <Companies />
       <Contact />
       <Footer />
     </main>
