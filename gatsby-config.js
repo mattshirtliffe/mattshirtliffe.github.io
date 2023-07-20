@@ -61,5 +61,13 @@ module.exports = {
         display: 'swap',
       },
     },
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://www.matthewshirtliffe.co.uk',
+        sitemap: 'https://www.matthewshirtliffe.co.uk/sitemap-index.xml',
+        policy: [{ userAgent: '*', allow: '/' }],
+      },
+    },
   ],
 }
