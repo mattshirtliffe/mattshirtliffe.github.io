@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.matthewshirtliffe.co.uk/sitemap-index.xml
+Host: https://www.matthewshirtliffe.co.uk
