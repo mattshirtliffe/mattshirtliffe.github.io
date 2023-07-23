@@ -1,21 +1,20 @@
 import * as React from 'react'
 import Seo from '../components/seo'
-import Header from '../components/Header'
 import Hero from '../components/Hero'
-import Footer from '../components/Footer'
 import Guff from '../components/Guff'
 import Contact from '../components/Contact'
 import Companies from '../components/Companies'
+import Layout from '../components/Layout'
 
 const IndexPage = () => {
   return (
     <main>
-      <Header />
-      <Hero />
-      <Guff />
-      <Companies />
-      <Contact />
-      <Footer />
+      <Layout>
+        <Hero />
+        <Guff />
+        <Companies />
+        <Contact />
+      </Layout>
     </main>
   )
 }
