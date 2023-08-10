@@ -9,20 +9,19 @@ const Guff = () => {
         <div className={guffStyles.guffPosts}>
           <p className={guffStyles.guffHeading}>Full Stack Development</p>
           <p className={guffStyles.guffText}>
-            From front-end user interfaces to back-end server logic, I excel at
-            building comprehensive solutions that seamlessly integrate every
-            layer of your project. With a deep understanding of JavaScript
-            frameworks like React, as well as Python frameworks like Django and
-            Flask, I ensure your application is responsive, user-friendly, and
-            fully functional.
+            From front-end user interfaces to back-end server logic, I am highly
+            skilled at creating comprehensive solutions that precisely integrate
+            every component of your project. With a deep understanding of
+            JavaScript frameworks like React, as well as Python frameworks like
+            Django and Flask, I ensure your application is responsive,
+            user-friendly, and secure.
           </p>
           <p className={guffStyles.guffHeading}>Custom Web Development</p>
           <p className={guffStyles.guffText}>
             Need a website that stands out from the crowd? I craft bespoke web
             experiences tailored to your unique requirements. By leveraging my
-            expertise in HTML5, CSS3, and JavaScript libraries, I create
-            visually stunning websites that captivate your audience and drive
-            engagement.
+            expertise in HTML, CSS, and JavaScript libraries, I create visually
+            stunning websites that captivate your audience and drive engagement.
           </p>
           <p className={guffStyles.guffHeading}>
             Database Design and Optimisation
@@ -45,26 +44,27 @@ const Guff = () => {
           </p>
           <p className={guffStyles.guffHeading}>Project Management</p>
           <p className={guffStyles.guffText}>
-            As a freelancer, I understand the importance of efficient project
-            management. I follow agile methodologies, collaborating closely with
-            you to define clear goals, deliverables, and timelines. I keep you
-            informed at every stage of the development process, ensuring
-            transparency and successful project completion.
+            As a freelancer, I am aware of the significance of project
+            management. I employ agile approaches and collaborate closely with
+            you to establish precise objectives, deliverables, and deadlines. I
+            update you on each stage of the development process. This guarantees
+            that everything is understandable and that the project is completed
+            on schedule and within budget.
           </p>
           <p className={guffStyles.guffHeading}>Agile Development</p>
           <p className={guffStyles.guffText}>
-            Adaptability is key in the fast-paced tech industry. I embraces
-            agile development methodologies, enabling me to swiftly respond to
-            changes and deliver results in a timely manner. Your project will be
-            executed with agility, precision, and flexibility.
+            Adaptability is crucial in the constantly evolving tech industry. I
+            employ agile development methodologies, allowing me to respond
+            rapidly to changes and deliver solutions on schedule and within
+            budget.
           </p>
           <p className={guffStyles.guffHeading}>Cutting-Edge Technologies</p>
           <p className={guffStyles.guffText}>
-            I stay updated with the latest trends in software development to
-            deliver innovative and future-proof solutions. Whether it's
-            leveraging the power of cloud computing, integrating AI, or
-            developing mobile applications, I have the skills and knowledge to
-            turn your ideas into reality.
+            In order to provide cutting-edge and resilient solutions, I stay up
+            with the latest and greatest trends in software development. I have
+            the abilities and knowledge to make your ideas a reality, whether
+            it's using cloud computing, integrating AI, or developing mobile
+            applications.
           </p>
         </div>
       </div>

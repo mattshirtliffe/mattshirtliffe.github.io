@@ -6,13 +6,14 @@ const Hero = () => {
     <section className={heroStyles.hero}>
       <div className={heroStyles.heroContent}>
         <h2 className={heroStyles.tagline}>
-          Introducing an Exceptional Freelance Full-Stack Software Engineer
+          I'm a full-stack software engineer; I develop applications with
+          technologies such as React, Next, and Flask.
         </h2>
         <div className={heroStyles.mission}>
           <p className={heroStyles.missionHeading}>About</p>
           <div className={heroStyles.missionText}>
             <p>
-              I'm a freelance Full Stack Software Engineer, dedicated to
+              I'm a freelance full stack software engineer, dedicated to
               transforming your ideas into robust and innovative digital
               solutions. With expertise in JavaScript and Python, I bring a
               wealth of knowledge and a passion for creating cutting-edge
