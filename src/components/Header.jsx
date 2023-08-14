@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <header className={headerStyles.navbar}>
       <a className={headerStyles.logo} href="/">
-        <h1>Matthew Shirtliffe</h1>
+        <h2>Matthew Shirtliffe</h2>
       </a>
       <nav className={headerStyles.links}>
         <a className={headerStyles.contact} href={`mailto:${contactEmail}`}>

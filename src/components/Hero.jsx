@@ -5,10 +5,10 @@ const Hero = () => {
   return (
     <section className={heroStyles.hero}>
       <div className={heroStyles.heroContent}>
-        <h2 className={heroStyles.tagline}>
-          I'm a full-stack software engineer; I develop applications with
-          technologies such as React, Next, and Flask.
-        </h2>
+        <h1 className={heroStyles.tagline}>
+          I'm a full-stack software engineer, I create web applications using
+          React, Next, Python, and Flask.
+        </h1>
         <div className={heroStyles.mission}>
           <p className={heroStyles.missionHeading}>About</p>
           <div className={heroStyles.missionText}>
